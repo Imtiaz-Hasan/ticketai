@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@14 . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm)",
+      "Read(//c/Projects/**)",
+      "Bash(npx create-next-app@14 ticketai-temp --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm)",
+      "Bash(cp -r /c/Projects/ticketai-temp/* /c/Projects/TicketAI/)",
+      "Bash(cp -r /c/Projects/ticketai-temp/.* /c/Projects/TicketAI/)",
+      "Bash(rm -rf /c/Projects/ticketai-temp)",
+      "Bash(cp -r /c/Projects/ticketai-temp/. /c/Projects/TicketAI/)",
+      "Bash(rsync -a /c/Projects/ticketai-temp/ /c/Projects/TicketAI/)",
+      "Bash(xcopy \"C:\\\\Projects\\\\ticketai-temp\" \"C:\\\\Projects\\\\TicketAI\" /E /Y /I /H)",
+      "Bash(find . -maxdepth 1 -not -name '.' -not -name 'node_modules' -exec cp -r {} /c/Projects/TicketAI/ \\\\;)",
+      "Bash(npm install:*)",
+      "Bash(npx shadcn@latest init -d)"
+    ]
+  }
+}
