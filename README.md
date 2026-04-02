@@ -352,7 +352,7 @@ npm run start    # Starts production server
 
 ## Live Demo
 
-> *Add deployed URL here after deployment*
+**https://ticketai-delta.vercel.app**
 
 ---
 
